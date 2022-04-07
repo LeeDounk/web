@@ -14,6 +14,9 @@
     margin:0;
 
   }
+  a{
+    text-decoration: none;
+  }
   #grid_inner{
     padding-left: 30px;
   }

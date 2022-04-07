@@ -3,17 +3,14 @@
   <title>test</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="colors.js"></script>
 </head>
 
 <body>
   <h1>Donja
-  <input type="button" value="night" onclick="
-    document.querySelector('body').style.backgroundColor='black';
-    document.querySelector('body').style.color='white';
-    ">
-  <input type="button" value="night" onclick="
-    document.querySelector('body').style.backgroundColor='white';
-    document.querySelector('body').style.color='black';
+    <input type="button" value="night" onclick="
+      nightDayHandler(this);
     ">
   </h1>
   <div class="grid">
