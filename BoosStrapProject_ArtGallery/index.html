@@ -1,9 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-
+        <title>BootStrapTest</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="'width=device-width, initial-scale=1">
+        <!--BootStrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!--BootStrap JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-        
+        <!--
+            1. boxline box
+            2. p)padding = 5px
+            3. bg)background Color = primary
+            4. text Color = white
+            5. text Align = center
+        -->
+        <div class="container-fluid p-5 bg-primary text-white text-center">
+            <h1>My First BootStrap Page</h1>
+            <p>amazing to me to make this awesome Page!</p>
+        </div>
+
+        <!-- 
+            1. m)margin
+        -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Colum1</h3>
+                    <p>Lorem ipsum dolor, 
+                        sit amet consectetur adipisicing <mark>elit.</mark> 
+                        Et quibusdam aspernatur, inventore molestiae ullam deleniti odio pariatur sequi corrupti! 
+                        Ab quasi nobis ipsum id omnis soluta in cum sequi iste.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Colum2</h3>
+                    <p>Lorem ipsum dolor, 
+                        sit amet consectetur adipisicing elit. 
+                        Et quibusdam aspernatur, inventore molestiae ullam deleniti odio pariatur sequi corrupti! 
+                        Ab quasi nobis ipsum id omnis soluta in cum sequi iste.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Colum3</h3>
+                    <p>Lorem ipsum dolor, 
+                        sit amet consectetur adipisicing elit. 
+                        Et quibusdam aspernatur, inventore molestiae ullam deleniti odio pariatur sequi corrupti! 
+                        Ab quasi nobis ipsum id omnis soluta in cum sequi iste.</p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
