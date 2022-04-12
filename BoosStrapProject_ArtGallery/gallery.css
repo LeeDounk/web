@@ -17,3 +17,12 @@
     width:60px;
     border-radius:10px;
 }
+.moreButton{
+    display:inline-block;
+    background-color: white;
+    color: black;
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 5px;
+    min-width: 10em;
+}
