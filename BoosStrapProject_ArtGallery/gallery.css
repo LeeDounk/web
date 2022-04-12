@@ -3,11 +3,18 @@
 .ag_btn{
     border-radius:50%;
     border:5px;
-    height:30px;
-    width:35px;
+    height:20px;
+    vertical-align:middle;
 }
-.actived{
-    background-color:rgb(175, 171, 171); 
+
+.uncurrent{
+    background-color:darkgrey;
+    width:20px;
+}
+.current{
+    background-color:dimgray;
+    width:80px;
+    border-radius:10px;
 }
 .ag_li{
     display:inline-block;
